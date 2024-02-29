@@ -22,8 +22,10 @@ h1, h2 {
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    
 }
 
 p {
@@ -41,11 +43,11 @@ ol li {
 
 /* Specific Styles for Sports Page */
 body.sports {
-    background-color: lime; /* salmon background */
+    background-color: lime; 
 }
 
 .sports h2 {
-    color: #155724; /* Dark green heading color */
+    color: white;
     text-align: center;
     font-size: xx-large;
 }
@@ -62,6 +64,7 @@ body.sports {
 .sports li p {
     font-weight: normal;
     font-size: smaller;
+    padding-right: 40px;
 }
 .sports ol {
     display: grid;
