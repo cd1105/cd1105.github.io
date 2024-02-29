@@ -76,7 +76,7 @@ body.sports {
 
 /* Specific Styles for Description List */
 .books dd {
-    font-size: x-large;
+    font-size: large;
     margin-top: 20px; /* Added space above the description list */
     margin-bottom: 20px; /* Added space below the description list */
 }
@@ -86,6 +86,7 @@ body.sports {
     margin-top: 10px; /* Added space above the description term */
     padding: 5px; /* Added padding */
     font-weight: bold;
+    font-size: x-large;
 }
 
 .books dl {
