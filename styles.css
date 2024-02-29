@@ -1,0 +1,121 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+h1, h2 {
+    font-family: "Times New Roman", serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+ol {
+    margin-left: 20px;
+}
+
+ol li {
+    margin-bottom: 10px;
+}
+
+/* Specific Styles for Sports Page */
+body.sports {
+    background-color: salmon; /* salmon background */
+}
+
+.sports h2 {
+    color: #155724; /* Dark green heading color */
+    text-align: center;
+    font-size: xx-large;
+}
+.sports li {
+    font-weight: bold;
+    font-size: larger;
+    
+}
+
+.sports nav ul li {
+    font-size: inherit; 
+    font-weight: inherit;
+}
+.sports li p {
+    font-weight: normal;
+    font-size: smaller;
+}
+.sports ol {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* Specific Styles for Description List */
+.books dd {
+    font-size: x-large;
+    margin-top: 20px; /* Added space above the description list */
+    margin-bottom: 20px; /* Added space below the description list */
+}
+
+.books dt {
+    margin-bottom: 5px; /* Added space below the description term */
+    margin-top: 10px; /* Added space above the description term */
+    padding: 5px; /* Added padding */
+    font-weight: bold;
+}
+
+.books dl {
+    margin-bottom: 10px; /* Added space below the description definition */
+    margin-top: 5px; /* Added space above the description definition */
+    padding: 5px; /* Added padding */
+}
+.books h2 {
+    color: purple;
+    text-align: center;
+    font-size: xx-large;
+    
+}
+
+.movies h2 {
+    color: purple; /* Dark green heading color */
+    text-align: center;
+    font-size: xx-large;
+}
+.movies li {
+    font-weight: bold;
+    font-size: larger;
+    
+}
+
+.movies nav ul li {
+    font-size: inherit; 
+    font-weight: inherit;
+}
+.movies li p {
+    font-weight: normal;
+}
+.movies ol {
+    color: tomato;
+} 
+.movies ol p {
+    color: lightcoral;
+}
