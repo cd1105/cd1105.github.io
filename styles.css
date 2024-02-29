@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 20px;
     padding: 20px;
-    background-color: #f0f0f0;
+    background-color: teal;
 }
 
 nav ul {
@@ -41,7 +41,7 @@ ol li {
 
 /* Specific Styles for Sports Page */
 body.sports {
-    background-color: salmon; /* salmon background */
+    background-color: lime; /* salmon background */
 }
 
 .sports h2 {
@@ -114,8 +114,8 @@ body.sports {
     font-weight: normal;
 }
 .movies ol {
-    color: tomato;
+    color: red;
 } 
 .movies ol p {
-    color: lightcoral;
+    color: lightyellow;
 }
